@@ -11,7 +11,7 @@ The lab environment we used includes:
 
 The networking setup relies on the usage of the NAT mode, through the default VMnet8.
 
-It contains many examples, since it shows the evolution of scripting to automate network activities, from screen scraping tools till the more recent Model-Driven protocols and applications.
+The document contains many examples, since it shows the evolution of scripting to automate network activities, from screen scraping tools till the more recent Model-Driven protocols and applications.
 In particular, in the first release we used:
 <ol>
   <li>A bash script</li>
