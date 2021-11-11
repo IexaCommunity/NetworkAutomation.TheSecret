@@ -1,0 +1,17 @@
+#!/usr/bin/expect
+log_file check_interface_status_expect.txt
+spawn telnet 192.168.183.111
+expect "Username: "
+send "enginesan\r"
+expect "Password: "
+send "cisco\r"
+expect "csr1000v-1#"
+send "show interface GigabitEthernet1\r"
+interact timeout 10 {send "exit\r"}
+
+set line1 $sed -n '/GigabitEthernet1 is/ p' check_interface_status_expect.txt
+
+if { $line1 == "GigabitEthernet1 is down, line protocol is down"}
+    spawn echo "GigabitEthernet1 is down"
+else
+    spawn echo "GigabitEthernet1 is up"

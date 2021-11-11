@@ -1,0 +1,234 @@
+spawn telnet 192.168.183.111
+Trying 192.168.183.111...
+Connected to 192.168.183.111.
+Escape character is '^]'.
+
+
+User Access Verification
+
+Username: enginesan
+Password: 
+
+csr1000v-1#show interface GigabitEthernet1
+GigabitEthernet1 is up, line protocol is up 
+  Hardware is CSR vNIC, address is 000c.2922.b24a (bia 000c.2922.b24a)
+  Description: LINK TO VMNET8
+  Internet address is 192.168.183.111/24
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full Duplex, 1000Mbps, link type is auto, media type is Virtual
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 2000 bits/sec, 2 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     486045 packets input, 456727733 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     29 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     8161 packets output, 2949643 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     13 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+csr1000v-1#    exit
+Connection closed by foreign host.
+spawn telnet 192.168.183.111
+Trying 192.168.183.111...
+Connected to 192.168.183.111.
+Escape character is '^]'.
+
+
+User Access Verification
+
+Username: enginesan
+Password: 
+
+csr1000v-1#show interface GigabitEthernet1
+GigabitEthernet1 is up, line protocol is up 
+  Hardware is CSR vNIC, address is 000c.2922.b24a (bia 000c.2922.b24a)
+  Description: LINK TO VMNET8
+  Internet address is 192.168.183.111/24
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full Duplex, 1000Mbps, link type is auto, media type is Virtual
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 1/375/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 3000 bits/sec, 4 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     570479 packets input, 549923826 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     29 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     8892 packets output, 3267050 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     15 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+csr1000v-1#
+csr1000v-1#
+csr1000v-1#
+csr1000v-1#exit
+Connection closed by foreign host.
+spawn telnet 192.168.183.111
+Trying 192.168.183.111...
+Connected to 192.168.183.111.
+Escape character is '^]'.
+
+User Access Verification
+
+Username: enginesan
+Password: 
+
+csr1000v-1#show interface GigabitEthernet1
+GigabitEthernet1 is up, line protocol is up 
+  Hardware is CSR vNIC, address is 000c.2922.b24a (bia 000c.2922.b24a)
+  Description: LINK TO VMNET8
+  Internet address is 192.168.183.111/24
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full Duplex, 1000Mbps, link type is auto, media type is Virtual
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 1/375/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 5000 bits/sec, 5 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     571571 packets input, 550033652 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     29 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     8966 packets output, 3272709 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     15 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+csr1000v-1#exit
+Connection closed by foreign host.
+can't read "(sed -n '/GigabitEthernet1 is/ p' check_interface_status_expect.txt)": no such variable
+    while executing
+"line1 = $(sed -n '/GigabitEthernet1 is/ p' check_interface_status_expect.txt)"
+    (file "./interface_config_expect.exp" line 12)
+spawn telnet 192.168.183.111
+Trying 192.168.183.111...
+Connected to 192.168.183.111.
+Escape character is '^]'.
+
+
+User Access Verification
+
+Username: enginesan
+Password: 
+
+csr1000v-1#show interface GigabitEthernet1
+GigabitEthernet1 is up, line protocol is up 
+  Hardware is CSR vNIC, address is 000c.2922.b24a (bia 000c.2922.b24a)
+  Description: LINK TO VMNET8
+  Internet address is 192.168.183.111/24
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full Duplex, 1000Mbps, link type is auto, media type is Virtual
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 1000 bits/sec, 1 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     1955 packets input, 389036 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     71 packets output, 7149 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+csr1000v-1#exit
+Connection closed by foreign host.
+can't read "(sed -n '/GigabitEthernet1 is/ p' check_interface_status_expect.txt)": no such variable
+    while executing
+"line1 = $(sed -n '/GigabitEthernet1 is/ p' check_interface_status_expect.txt)"
+    (file "./interface_config_expect.exp" line 12)
+spawn telnet 192.168.183.111
+Trying 192.168.183.111...
+Connected to 192.168.183.111.
+Escape character is '^]'.
+
+
+User Access Verification
+
+Username: enginesan
+Password: 
+
+csr1000v-1#show interface GigabitEthernet1
+GigabitEthernet1 is up, line protocol is up 
+  Hardware is CSR vNIC, address is 000c.2922.b24a (bia 000c.2922.b24a)
+  Description: LINK TO VMNET8
+  Internet address is 192.168.183.111/24
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full Duplex, 1000Mbps, link type is auto, media type is Virtual
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 1/375/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 1000 bits/sec, 1 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     2800 packets input, 551355 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     217 packets output, 25113 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+csr1000v-1#
+csr1000v-1#
+csr1000v-1#
+csr1000v-1#
+csr1000v-1#
+csr1000v-1#exit
+Connection closed by foreign host.
+can't read "(sed -n '/GigabitEthernet1 is/ p' check_interface_status_expect.txt)": no such variable
+    while executing
+"set line1 = $(sed -n '/GigabitEthernet1 is/ p' check_interface_status_expect.txt)"
+    (file "./interface_config_expect.exp" line 12)

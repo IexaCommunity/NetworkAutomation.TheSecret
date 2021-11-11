@@ -1,0 +1,34 @@
+telnet> Trying 192.168.183.111...
+Connected to 192.168.183.111.
+Escape character is '^]'.
+
+
+User Access Verification
+
+Username: enginesan
+Password: 
+
+csr1000v-1#show interface g1
+GigabitEthernet1 is up, line protocol is up 
+  Hardware is CSR vNIC, address is 000c.2922.b24a (bia 000c.2922.b24a)
+  Description: LINK TO VMNET8
+  Internet address is 192.168.183.111/24
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full Duplex, 1000Mbps, link type is auto, media type is Virtual
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 3000 bits/sec, 3 packets/sec
+  5 minute output rate 1000 bits/sec, 1 packets/sec
+     1848 packets input, 367131 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+ --More-- 

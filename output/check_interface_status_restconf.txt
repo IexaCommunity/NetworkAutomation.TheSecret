@@ -1,0 +1,18 @@
+{
+  "ietf-interfaces:interface": {
+    "name": "GigabitEthernet1",
+    "description": "LINK TO VMNET8",
+    "type": "iana-if-type:ethernetCsmacd",
+    "enabled": true,
+    "ietf-ip:ipv4": {
+      "address": [
+        {
+          "ip": "192.168.183.111",
+          "netmask": "255.255.255.0"
+        }
+      ]
+    },
+    "ietf-ip:ipv6": {
+    }
+  }
+}
